@@ -210,8 +210,8 @@ class _MainContentState extends State<MainContent> {
         });
 
         // try {
-        //   loadModel(context, "assets/tomatoOrother.tflite",
-        //       "assets/TomatoOrotherlabels.txt", 'Select a leaf image!');
+        //   loadModel(context, "assets/ssedOrtho.tflite",
+        //       "assets/TomatoOrotherlabels.txt", 'Select a seed image!');
         //   var firstModel = await Tflite.runModelOnImage(
         //       path: widget.imgPath,
         //       numResults: 1,
@@ -228,7 +228,7 @@ class _MainContentState extends State<MainContent> {
         //
         //     if (resList.listOfResponse[0].label == "Other") {
         //       print("It is not a tomato leaf.");
-        //       final snackBar = SnackBar(content: Text('Select a leaf image!'));
+        //       final snackBar = SnackBar(content: Text('Select a seed image!'));
         //       Scaffold.of(context).showSnackBar(snackBar);
         //       widget.loadingIndicator(false);
         //       print(widget.isLoading);
