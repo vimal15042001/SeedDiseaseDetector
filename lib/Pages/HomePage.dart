@@ -210,8 +210,8 @@ class _MainContentState extends State<MainContent> {
         });
 
         // try {
-        //   loadModel(context, "assets/tomatoOrother.tflite",
-        //       "assets/TomatoOrotherlabels.txt", 'Select a leaf image!');
+        //   loadModel(context, "assets/seedOrother.tflite",
+        //       "assets/SeedOrotherlabels.txt", 'Select a seed image!');
         //   var firstModel = await Tflite.runModelOnImage(
         //       path: widget.imgPath,
         //       numResults: 1,
