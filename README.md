@@ -1,6 +1,6 @@
 # detector
 
-Tomato plant disease detection in flutter 
+seed  disease detection in flutter 
 
 ## Getting Started
 
